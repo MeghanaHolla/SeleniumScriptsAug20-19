@@ -13,6 +13,7 @@ public class Application {
 	public void verifyInvalidLoginTest() throws IOException {
 		String[][] data = GenericMethods.getData("D:\\SelJul24\\TestData.xlsx", "Sheet2");
 		for(int i = 1; i<data.length;i++) {
+			//Made code changes after R1.1
 			switch(data[i][3]) {
 			
 			case "openBrowser":
